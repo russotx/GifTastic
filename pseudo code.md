@@ -7,8 +7,8 @@ come up with topics
 create and initialize array
 loop through array
 draw buttons
-draw search box
-draw search box button
+draw addtopic box
+draw addtopic box button
 assign event handlers to topics buttons and search box button
 get button info
 create query url
