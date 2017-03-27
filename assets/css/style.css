@@ -50,6 +50,10 @@ body {
   height: inherit;
 }
 
+.col-5 {
+  width: 83.3333%;
+}
+
 .col-4 {
   width: 66.6666%;
 }
@@ -164,6 +168,11 @@ form {
   border-radius: 5px;
   font-size: 2em;
   font-family: 'Abril Fatface', cursive;
+}
+
+#gif-buttons {
+  height: 100vh;
+  background-color: blue;
 }
 
 #gif-display {
