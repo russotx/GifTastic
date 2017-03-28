@@ -10,6 +10,8 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
 
   <!-- custom stylesheet -->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Bangers|Economica|Poiret+One|Shadows+Into+Light|VT323" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 
@@ -20,15 +22,27 @@
   <!-- Entire page row -->
   <div id="app-board" class="row">
     <!-- GIF Buttons column -->
-    <nav id="gif-buttons" class="col-1">
+    <div class="col-1 col-vert">
+      <div class="row row-vert freeze">
+        <aside id="add-form" class="col-6">
+          <h3>Add Your Own Gif Topics!</h3>
+          <input id="add-gif-form" class="cool-input" type="text">
+          <button id="add-gif-btn" class="circ-btn" type="submit">+</button>
+        </aside>
+      </div>
+      <div class="row row-vert">
+        <nav id="gif-buttons" class="col-6">
 
-    </nav>
+        </nav>
+      </div>
+
+    </div>
     <!-- Area next to the buttons column -->
     <main class="col-5">
       <!-- App Title header -->
       <header id="app-title" class="row row vert">
         <div class="col-6 overlay">
-          <img src="" alt=""/>
+        <img src="http://i.imgur.com/kgcVCEG.gif" data-state="animate">
           <div id="title-box" class="col-4">
             <h1>Gifs of Frustration</h1>
             <h5>Want to beat your head against a wall? There's a gif for that.</h5>
@@ -38,17 +52,18 @@
       <!-- Row for Gifs display and add button box -->
       <article class="row">
 
-        <section id="gif-display" class="col-4">
+        <section id="gif-display" class="col-6">
 
         </section>
 
         <!-- Add gif topic form and button -->
+        <!--
         <aside id="add-form" class="col-2">
           <h3>Add Your Own Gif Topics!</h3>
           <input id="add-gif-form" class="cool-input" type="text">
           <button id="add-gif-btn" class="circ-btn" type="submit">Submit</button>
         </aside>
-
+-->
       </article>
 
     </main>
